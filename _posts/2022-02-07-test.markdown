@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Test additional page"
+date:   2022-02-07 13:44:34 -0500
+categories: stats
+---
+simple check
