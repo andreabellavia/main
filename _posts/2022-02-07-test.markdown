@@ -1,7 +1,23 @@
 ---
 layout: post
-title:  "Test additional page"
+title:  "Neural Network"
 date:   2022-02-07 13:44:34 -0500
 categories: stats
 ---
-simple check
+Test post.
+
+I have been recently explored R packages to fit neural networks. [This paper](https://www.inmodelia.com/exemples/2021-0103-RJournal-SM-AV-CD-PK-JN.pdf) provides an excellent discussion of all available packages (January 2021).
+Among the possible options there is `neuralnet` that offer several documentation:
+- [Github page](https://github.com/bips-hb/neuralnet)
+- [Including cross validation](https://www.analyticsvidhya.com/blog/2017/09/creating-visualizing-neural-network-in-r/)
+- [datasience+ post](https://datascienceplus.com/neuralnet-train-and-test-neural-networks-using-r/)
+- [R-bloggers post](https://www.r-bloggers.com/2015/09/fitting-a-neural-network-in-r-neuralnet-package/)
+ 
+[This function](https://www.r-bloggers.com/2013/08/variable-importance-in-neural-networks/)
+ can be used for variable importance
+
+{% highlight r %}
+results<-gar.fun('y',nn)
+plot(results)
+a<-results$data
+{% endhighlight %}
