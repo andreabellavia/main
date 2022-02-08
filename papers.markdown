@@ -1,7 +1,7 @@
 ---
 layout: page
-title: papers
-permalink: /papers/
+title: other
+permalink: /other/
 ---
 
-Currently empty
+test page
