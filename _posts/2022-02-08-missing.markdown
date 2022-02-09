@@ -12,5 +12,5 @@ library(naniar)
 gg_miss_var(data)
 {% endhighlight %}
 
-Comprehensive and user-friendly reviews of this and other packages' functionalities can be found [here](http://juliejosse.com/wp-content/uploads/2018/06/DataAnalysisMissingR.html#11)_descriptive_statistics_with_missing_values) and [here](https://cran.r-project.org/web/packages/naniar/vignettes/getting-started-w-naniar.html)
+Comprehensive and user-friendly reviews of this and other packages' functionalities can be found [here](http://juliejosse.com/wp-content/uploads/2018/06/DataAnalysisMissingR.html) and [here](https://cran.r-project.org/web/packages/naniar/vignettes/getting-started-w-naniar.html)
 
