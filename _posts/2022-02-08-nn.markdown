@@ -1,12 +1,8 @@
 ---
+layout: post
 title:  "Neural Networks in R"
 date:   2022-02-08 15:44:34 -0500
-categories:
-  - R
-tags: 
-  - machine learning
-  - neural networks
-  - R
+tags: [machine learning, neural networks, R]
 ---
 
 There are more than 80 R packages that allow Neural Network modeling. [This recent paper](https://www.inmodelia.com/exemples/2021-0103-RJournal-SM-AV-CD-PK-JN.pdf) provides an excellent discussion and throrough comparison of all these avaialble options (updated to May 2020).
