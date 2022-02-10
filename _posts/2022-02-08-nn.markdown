@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Neural Networks in R"
 date:   2022-02-08 15:44:34 -0500
 categories:
