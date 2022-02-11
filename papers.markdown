@@ -4,4 +4,4 @@ title: other
 permalink: /other/
 ---
 
-test page
+test page. check 
