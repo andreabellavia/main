@@ -12,24 +12,31 @@ ul{
 
 <div class="tags-expo">
   <div class="tags-expo-list">
-    {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}; </a>
+    {% for tag in tags %}
+    <a href="#{{ tag | slugify }}"> {{ tag }};  </a>
     {% endfor %}
   </div>
   <hr/>
   <div class="tags-expo-section">
-    {% for tag in site.tags %}
-    <p  id="{{ tag[0] | slugify }}">{{ tag[0] }}</p>
-    <ul class="tags-expo-posts">
-      {% for post in tag[1] %}
-        <a class="post-title" href="{{ post.url }}">
-      <li>
-        {{ post.title }}
-      <small class="post-date">{{ post.date | date_to_string }}</small>
-      </li>
-      </a>
-      {% endfor %}
-    </ul>
+    {% for tag in tags %}
+    <p  id="{{ tag | slugify }}">{{ tag }}</p>
+   <ul>
+	 {% for post in site.posts %}
+		 {% if post.tags contains tag %}
+		 <li>
+		 <h3>
+		 <a href="{{ post.url }}">
+		 {{ post.title }}
+		 <small>{{ post.date | date_to_string }}</small>
+		 </a>
+		 {% for tag in post.tags %}
+			 <a class="tag" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
+		 {% endfor %}
+		 </h3>
+		 </li>
+		 {% endif %}
+	 {% endfor %}
+	</ul>
     {% endfor %}
   </div>
 </div>
