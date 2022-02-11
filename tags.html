@@ -4,6 +4,14 @@ title: Tags
 permalink: /Tags/
 ---
 
+<style>
+.liSpan
+{
+    line-height: 2em;
+    padding: 1em 0;
+}
+</style>
+
 <div class="tags-expo">
   <div class="tags-expo-list">
     {% for tag in site.tags %}
@@ -13,7 +21,7 @@ permalink: /Tags/
   <hr/>
   <div class="tags-expo-section">
     {% for tag in site.tags %}
-    <p style="font-size:11px" id="{{ tag[0] | slugify }}">{{ tag[0] }}</p>
+    <p  id="{{ tag[0] | slugify }}">{{ tag[0] }}</p>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
