@@ -17,8 +17,8 @@ permalink: /Tags/
     <p  id="{{ tag[0] | slugify }}">{{ tag[0] }}</p>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
-        <a class="post-title" href="/main/{{ post.url }}" style="padding: 9px; height: 50px;">
-      <li style="display: inline-block;background-color:yellow">
+        <a class="post-title" href="/main/{{ post.url }}" style="padding: 9px; height: 30px;">
+      <li style="display: inline-block;">
         {{ post.title }}
       <small class="post-date">{{ post.date | date_to_string }}</small>
       </li>
