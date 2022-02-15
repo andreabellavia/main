@@ -5,7 +5,7 @@ date:   2022-02-08 15:44:34 -0500
 tags: [machine learning, R]
 ---
 
-There are more than 80 R packages that allow Neural Network modeling. [This recent paper](https://www.inmodelia.com/exemples/2021-0103-RJournal-SM-AV-CD-PK-JN.pdf) provides an excellent discussion and throrough comparison of all these avaialble options (updated to May 2020).
+There are more than 80 R packages that allow Neural Network modeling. [This recent paper](https://www.inmodelia.com/exemples/2021-0103-RJournal-SM-AV-CD-PK-JN.pdf) provides an excellent discussion and thorough comparison of all these available options (updated to May 2020).
 
 For relatively simple settings I have been using `neuralnet`, which offers several guided examples and tutorials online:
 - [Github page](https://github.com/bips-hb/neuralnet)
