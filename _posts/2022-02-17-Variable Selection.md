@@ -2,7 +2,7 @@
 layout: post
 title:  "Variable Selection"
 date:   2022-02-17 
-tags: [clinical prediction, theory, R]
+tags: [literature, R]
 ---
   
 Useful references:
