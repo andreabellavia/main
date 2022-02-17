@@ -6,4 +6,4 @@ permalink: /other/
 
 test page. check 5
 
-{{ site.baseurl }}/pdfs/RSA_Bellavia.pdf
+- <a href="pdfs/RSA_Bellavia.pdf">Evaluating complex interactions in environmental and occupational epidemiology</a>, HSPH, December 2019
