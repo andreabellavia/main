@@ -6,7 +6,7 @@ tags: [books]
 ---
 
 
-![<img src="https://andreabellavia.github.io/taleb.png" width="250"/>](https://andreabellavia.github.io/taleb.png)
+![<img src="https://andreabellavia.github.io/taleb.png" width="100"/>](https://andreabellavia.github.io/taleb.png)
 
 This is one of the most challenging and stimulating books I have read in a while. 
 
