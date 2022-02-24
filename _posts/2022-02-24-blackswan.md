@@ -2,10 +2,11 @@
 layout: post
 title:  "The Black Swan, by Nassim N. Taleb"
 date:   2022-02-24 
-tags: [book]
+tags: [books]
 ---
 
-<img src="https://andreabellavia.github.io/taleb.png" width="30%/>
+
+![](https://andreabellavia.github.io/taleb.png){ width=50% }
 
 This is one of the most challenging and stimulating books I have read in a while. 
 
