@@ -6,11 +6,11 @@ tags: [books]
 ---
 
 
-![](https://andreabellavia.github.io/taleb.png){ width=50% }
+![<img src="https://andreabellavia.github.io/taleb.png" width="250"/>](https://andreabellavia.github.io/taleb.png)
 
 This is one of the most challenging and stimulating books I have read in a while. 
 
-Here some useful resources for someone approaching the topic from a biostatistics point of view:
+Here some useful resources for someone approaching the topic from a biostat background point of view:
 
 - [Notes from Andrew Gelman ](https://statmodeling.stat.columbia.edu/2007/04/09/nassim_talebs_t/)
 - [Mini lectures in probability from the Author](https://www.youtube.com/playlist?list=PLMV8UXQuOWKPAIjvnyMN2317LHF3ydvnG)
