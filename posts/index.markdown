@@ -1,5 +1,5 @@
 ---
 
 layout: home
-title: Specific topics
+title: Topics
 ---
